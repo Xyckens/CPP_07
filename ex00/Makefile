@@ -1,11 +1,10 @@
-NAME = converter
+NAME = ex00
 
 CXX = c++
 
 CXX_FLAGS = -Wall -Wextra -Werror -std=c++98
 
-SRC = main.cpp \
-	ScalarConverter.cpp
+SRC = main.cpp
 
 %.o:	%.cpp
 	$(CXX) $(CXX_FLAGS) -c $< -o $@
