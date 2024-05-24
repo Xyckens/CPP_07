@@ -14,7 +14,7 @@ public:
 	Array(unsigned int n): array(new T[n]), len(n) {}
 	Array(Array const &copy): array(new T[copy.len]), len(copy.len)
 	{
-		for (unsigned int i = 0; i < copy.len(); i++)
+		for (unsigned int i = 0; i < copy.len; i++)
 			this->array[i] = copy.array[i];
 	}
 

@@ -1,4 +1,4 @@
-NAME = converter
+NAME = ex00
 
 CXX = c++
 
